@@ -1,14 +1,22 @@
 <template>
-<div class="q-pa-md example-row-stacked-to-horizontal">
+<div class="q-pa-md example-row-mix-and-match">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
   <div class="row">
-    <div class="col-12 col-md-8">.col-12 .col-md-8</div>
-    <div class="col-12 col-md-4">.col-12 .col-md-4</div>
+    <div class="col col-md-8">.col .col-md-8</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
   </div>
 
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
   <div class="row">
-    <div class="col-12 col-md">.col-12 .col-md</div>
-    <div class="col-12 col-md">.col-12 .col-md</div>
-    <div class="col-12 col-md">.col-12 .col-md</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row">
+    <div class="col-6">.col-6</div>
+    <div class="col-6">.col-6</div>
   </div>
 </div>
 </template>
