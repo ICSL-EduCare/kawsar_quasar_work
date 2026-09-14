@@ -1,9 +1,8 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
-  </q-page>
+<div class="row">
+  <div class="col-8">two thirds</div>
+  <div class="col-2">one sixth</div>
+  <div class="col-auto">auto size based on content and available space</div>
+  <div class="col">fills remaining available space</div>
+</div>
 </template>
