@@ -1,22 +1,31 @@
 <template>
-<div class="q-pa-md example-row-mix-and-match">
-  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-  <div class="row">
-    <div class="col col-md-8">.col .col-md-8</div>
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+<div class="q-pa-md example-row-vertical-alignment">
+  <q-badge>items-start</q-badge>
+  <div class="row items-start">
+    <div class="col"> One of three cols </div>
+    <div class="col"> One of three cols </div>
+    <div class="col"> One of three cols </div>
   </div>
 
-  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-  <div class="row">
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  <q-badge>items-center</q-badge>
+  <div class="row items-center">
+    <div class="col"> One of three cols </div>
+    <div class="col"> One of three cols </div>
+    <div class="col"> One of three cols </div>
   </div>
 
-  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <q-badge>items-end</q-badge>
+  <div class="row items-end">
+    <div class="col"> One of three cols </div>
+    <div class="col"> One of three cols </div>
+    <div class="col"> One of three cols </div>
+  </div>
+
+  <q-badge>self-*</q-badge>
   <div class="row">
-    <div class="col-6">.col-6</div>
-    <div class="col-6">.col-6</div>
+    <div class="col self-start"> .self-start </div>
+    <div class="col self-center"> .self-center </div>
+    <div class="col self-end"> .self-end </div>
   </div>
 </div>
 </template>
