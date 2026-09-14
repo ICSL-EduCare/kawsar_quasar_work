@@ -1,14 +1,15 @@
 <template>
-<div class="q-pa-md example-column-equal-width">
+<div class="q-pa-md example-column-row-width">
   <div class="column" style="height: 150px">
-    <div class="col"> 1 of 2 </div>
-    <div class="col"> 1 of 2 </div>
+    <div class="col"> .col </div>
+    <div class="col-5"> .col-5 </div>
+    <div class="col"> .col </div>
   </div>
 
-  <div class="column" style="height: 150px">
-    <div class="col"> 1 of 3 </div>
-    <div class="col"> 1 of 3 </div>
-    <div class="col"> 1 of 3 </div>
+  <div class="column" style="height: 250px">
+    <div class="col"> .col </div>
+    <div class="col-8"> .col-8 </div>
+    <div class="col"> .col </div>
   </div>
-</div>s
+</div>
 </template>
