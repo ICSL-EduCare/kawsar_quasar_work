@@ -1,17 +1,13 @@
 <template>
-<div class="q-pa-md example-row-offsetting-columns">
+<div class="q-pa-md example-row-nesting">
   <div class="row">
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
-    <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+    <div class="col-sm-9">
+      <p>Level 1: .col-sm-9</p>
+      <div class="row">
+        <div class="col-8 col-sm-6"> Level 2: .col-8 .col-sm-6 </div>
+        <div class="col-4 col-sm-6"> Level 2: .col-4 .col-sm-6 </div>
+      </div>
+    </div>
   </div>
 </div>
 </template>
